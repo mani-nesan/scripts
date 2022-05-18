@@ -1,0 +1,1 @@
+for job in $(aws batch describe-job-definitions --region ap-southeast-1 --query "jobDefinitions[*].jobDefinitionArn"  --output text) ; do echo $job; aws batch deregister-job-definition   --job-definition $job;  done
