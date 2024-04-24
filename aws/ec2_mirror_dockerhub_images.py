@@ -27,32 +27,10 @@ import boto3
 from botocore.exceptions import ClientError
 
 
-ACCOUNT_ID = "026171442599"
+ACCOUNT_ID = "<account_id>"
 
 IMAGE_TAGS = [
-    "gedac/diffexp",
-    "gedac/pathway",
-    "gedac/rnaseq",
-    "gedac/repeats",
-    "gedac/chipap",
-    "gedac/bisulfiteseq",
-    "gedac/atacseq",
-    "gedac/ripseq",
-    "gedac/rmats",
-    "gedac/circrna",
-    "gedac/web",
-    "gedac/scrnaseq",
-    "gedac/diffediting",
-    "gedac/database",
-    "gedac/4cseq",
-    "gedac/ngsplot",
-    "gedac/editing",
-    "gedac/shapeseq",
-    "gedac/dnaseq",
-    "gedac/chipseq",
-    "gedac/eclipseq",
-    "gedac/smallrna",
-    "gedac/scrnaseq-kb-star"
+    "docker-image",
 ]
 
 
